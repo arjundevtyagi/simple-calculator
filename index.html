@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- over all calculator div -->
+    <div class="calculator">
+        <!-- clc display -->
+        
+            <input
+            id="display" class="display" type="text" readonly>
+       
+        <!-- calc keys -->
+        <div class="keys">
+            <button onclick="seeOnDisplay('+')" class="operator-btn">+</button>
+            <button onclick="seeOnDisplay('7')">7</button>
+            <button onclick="seeOnDisplay('8')">8</button>
+            <button onclick="seeOnDisplay('9')">9</button>
+            <button onclick="seeOnDisplay('-')" class="operator-btn">-</button>
+            <button onclick="seeOnDisplay('4')">4</button>
+            <button onclick="seeOnDisplay('5')">5</button>
+            <button onclick="seeOnDisplay('6')">6</button>
+            <button onclick="seeOnDisplay('*')" class="operator-btn">*</button>
+            <button onclick="seeOnDisplay('1')">1</button>
+            <button onclick="seeOnDisplay('2')">2</button>
+            <button onclick="seeOnDisplay('3')">3</button>
+            <button onclick="seeOnDisplay('/')" class="operator-btn">/</button>
+            <button onclick="seeOnDisplay('0')">0</button>
+            <button onclick="seeOnDisplay('.')">.</button>
+            <button onclick="calculate()" class="calculate-btn">=</button>
+            <button onclick="clearrr()" class="clr-btn">C</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
